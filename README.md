@@ -39,7 +39,8 @@ When comparing the two example texts:
 
 The cosine similarity matrix will look like this:
 
-![Similarity Matrix](https://github.com/omchaudhari1107/String-Similarity-Using-NLP/assets/90174038/2beef417-5e90-4979-a93e-49e0a4f84e25)
+![08fbb3035a87088e73235d5e6a3c89bd941f8cbfdc963c2518744a2e](https://github.com/omchaudhari1107/String-Similarity-Using-NLP/assets/90174038/986eda29-fb91-436d-bab3-0ccc23e53eaa)
+
 
 When comparing the two example of **Non-similar** texts:
 
@@ -48,7 +49,7 @@ When comparing the two example of **Non-similar** texts:
 
 The cosine similarity matrix will look like this:
 
-![Non-Similarity Matrix](https://github.com/omchaudhari1107/String-Similarity-Using-NLP/assets/90174038/80618a50-8bcd-45b0-b380-408f11afb49b)
+![407d9805166c440098e5c28b177f52c908cfb79ad2bd859d26d53a8a](https://github.com/omchaudhari1107/String-Similarity-Using-NLP/assets/90174038/4b4bc5ce-795d-4df6-8669-8dbeba0cdab3)
 
 
 ## How to Run
