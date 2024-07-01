@@ -4,10 +4,9 @@ from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 import matplotlib.pyplot as plt
 
-# Load Spacy model
-nlp = spacy.load("en_core_web_sm")
+with st.spinner('Please wait while the model is being loaded...'):
+    nlp = spacy.load("en_core_web_sm")
 
-# Function to preprocess text
 def preprocess(text):
     doc = nlp(text)
     filtered_tokens = []
@@ -18,13 +17,11 @@ def preprocess(text):
     
     return " ".join(filtered_tokens) 
 
-# Function to return vectorized array
 def ReturnArray(lst):
     v = CountVectorizer(ngram_range=(1, 1))
     v.fit_transform(lst)
     return v.transform(lst).toarray()
 
-# Streamlit app
 def main():
     st.title('Text Similarity Analyzer using CV')
 
